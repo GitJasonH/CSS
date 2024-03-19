@@ -1,0 +1,52 @@
+/* Jason Henry */
+
+/* CSS for shapes */
+.shapes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+  /* CSS for grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: #FFC107;
+}
+  
+.box2 {
+    background-color: #4CAF50;
+}
+  
+.box3 {
+    background-color: #2196F3;
+}
+  
+.box4 {
+    background-color: #ff00d4;
+}
